@@ -1,0 +1,51 @@
+/* TODO 7:
+   Melhore o visual da página.
+   Sugestões:
+   - cor de fundo
+   - cor do título
+   - espaço entre os cards
+   - estilo do botão
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+}
+
+.mensagem {
+}
+
+.acoes {
+    margin-bottom: 20px;
+}
+
+a {
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
